@@ -1,0 +1,8 @@
+[2024-07-31 23:52:04] [ INFO ] [Animal:17] conexion establecida
+[2024-07-31 23:52:04] [ ERROR] [Animal:41] Error de Sintaxis en sentencia SQL "DELETE [*]* FROM ANIMALES WHERE ID=3"; se esperaba "identifier"
+Syntax error in SQL statement "DELETE [*]* FROM ANIMALES WHERE ID=3"; expected "identifier"; SQL statement:
+DELETE * FROM ANIMALES WHERE ID=3 [42001-224]
+[2024-07-31 23:53:34] [ INFO ] [Animal:17] conexion establecida
+[2024-07-31 23:54:53] [ INFO ] [Animal:17] conexion establecida
+[2024-07-31 23:55:46] [ INFO ] [Animal:17] conexion establecida
+[2024-07-31 23:56:02] [ INFO ] [Animal:17] conexion establecida
