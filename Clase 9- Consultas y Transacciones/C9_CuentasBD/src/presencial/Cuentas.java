@@ -45,6 +45,7 @@ public class Cuentas {
             //int x=4/0;
             psTx.execute();
             logger.info("saldo nuevamente actualizado con exito");
+
             connection.commit();
             connection.setAutoCommit(true);
 

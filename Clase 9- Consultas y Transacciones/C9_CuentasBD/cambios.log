@@ -31,3 +31,6 @@ Database may be already in use: "C:/Users/jorge.pereyra/TablaCuentas.mv.db". Pos
 [2024-08-05 22:13:33] [ INFO ] [Cuentas:31]  primera carga de datos cargados con exito
 [2024-08-05 22:13:33] [ INFO ] [Cuentas:38]  segunda carga de datos cargados con exito
 [2024-08-05 22:13:33] [ INFO ] [Cuentas:47] saldo nuevamente actualizado con exito
+[2024-08-05 22:17:18] [ INFO ] [Cuentas:23] tabla creada con exito
+[2024-08-05 22:17:18] [ INFO ] [Cuentas:31]  primera carga de datos cargados con exito
+[2024-08-05 22:17:19] [ INFO ] [Cuentas:38]  segunda carga de datos cargados con exito
