@@ -16,4 +16,7 @@ public class MedicamentoService {
     public Medicamento guardarUnMedicamento(Medicamento medicamento){
         return medicamentoiDao.guardar(medicamento);
     }
+    public Medicamento buscarPorId(Integer id){
+        return medicamentoiDao.buscarPorId(id);
+    }
 }

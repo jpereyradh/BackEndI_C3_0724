@@ -15,6 +15,7 @@ public class MedicamentoDAOH2 implements iDao<Medicamento>{
     private Integer cantidad;*/
     private static final Logger logger= Logger.getLogger(MedicamentoDAOH2.class);
     private static final String SQL_INSERT="INSERT INTO MEDICAMENTOS VALUES(?,?,?,?,?,?)";
+    private static final String SQL_SELECT_ONE="SELECT * FROM MEDICAMENTOS WHERE ID =?";
     @Override
     public Medicamento guardar(Medicamento medicamento) {
         //deberia ir toda la logica para persistir el medicamento en la base de datos
@@ -35,6 +36,20 @@ public class MedicamentoDAOH2 implements iDao<Medicamento>{
             logger.error(e.getMessage());
         }
 
+        return medicamento;
+    }
+
+    @Override
+    public Medicamento buscarPorId(Integer id) {
+        Connection connection= null;
+        Medicamento medicamento= null;
+        try{
+            connection=BD.getConnection();
+
+
+        }catch (Exception e){
+            logger.error(e.getMessage());
+        }
         return medicamento;
     }
 }
