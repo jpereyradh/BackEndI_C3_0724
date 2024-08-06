@@ -1,0 +1,33 @@
+[2024-08-05 21:48:22] [ INFO ] [Cuentas:26] tabla creada con exito
+[2024-08-05 21:48:22] [ INFO ] [Cuentas:34] datos cargados con exito
+[2024-08-05 21:53:59] [ INFO ] [Cuentas:26] tabla creada con exito
+[2024-08-05 21:53:59] [ INFO ] [Cuentas:34] datos cargados con exito
+[2024-08-05 21:58:13] [ INFO ] [Cuentas:26] tabla creada con exito
+[2024-08-05 21:58:13] [ INFO ] [Cuentas:34] datos cargados con exito
+[2024-08-05 21:58:13] [ ERROR] [Cuentas:48] / by zero
+[2024-08-05 21:59:02] [ INFO ] [Cuentas:26] tabla creada con exito
+[2024-08-05 21:59:02] [ INFO ] [Cuentas:34] datos cargados con exito
+[2024-08-05 21:59:02] [ ERROR] [Cuentas:51] / by zero
+[2024-08-05 22:03:33] [ INFO ] [Cuentas:26] tabla creada con exito
+[2024-08-05 22:03:33] [ INFO ] [Cuentas:34] datos cargados con exito
+[2024-08-05 22:03:33] [ INFO ] [Cuentas:49] saldo nuevamente actualizado con exito
+[2024-08-05 22:05:27] [ INFO ] [Cuentas:26] tabla creada con exito
+[2024-08-05 22:05:27] [ INFO ] [Cuentas:34] datos cargados con exito
+[2024-08-05 22:05:27] [ INFO ] [Cuentas:49] saldo nuevamente actualizado con exito
+[2024-08-05 22:05:34] [ INFO ] [Cuentas:26] tabla creada con exito
+[2024-08-05 22:05:34] [ INFO ] [Cuentas:34] datos cargados con exito
+[2024-08-05 22:05:34] [ INFO ] [Cuentas:49] saldo nuevamente actualizado con exito
+[2024-08-05 22:07:49] [ INFO ] [Cuentas:26] tabla creada con exito
+[2024-08-05 22:07:49] [ INFO ] [Cuentas:34] datos cargados con exito
+[2024-08-05 22:07:49] [ ERROR] [Cuentas:53] / by zero
+[2024-08-05 22:08:18] [ ERROR] [Cuentas:53] La base de datos puede que ya esté siendo utilizada: "C:/Users/jorge.pereyra/TablaCuentas.mv.db". Soluciones Posibles: cierre todas las otras conexiones; use el modo server
+Database may be already in use: "C:/Users/jorge.pereyra/TablaCuentas.mv.db". Possible solutions: close all other connection(s); use the server mode [90020-224]
+[2024-08-05 22:10:53] [ INFO ] [Cuentas:23] tabla creada con exito
+[2024-08-05 22:10:53] [ INFO ] [Cuentas:31] datos cargados con exito
+[2024-08-05 22:11:59] [ INFO ] [Cuentas:23] tabla creada con exito
+[2024-08-05 22:11:59] [ INFO ] [Cuentas:31]  primera carga de datos cargados con exito
+[2024-08-05 22:11:59] [ INFO ] [Cuentas:38]  segunda carga de datos cargados con exito
+[2024-08-05 22:13:33] [ INFO ] [Cuentas:23] tabla creada con exito
+[2024-08-05 22:13:33] [ INFO ] [Cuentas:31]  primera carga de datos cargados con exito
+[2024-08-05 22:13:33] [ INFO ] [Cuentas:38]  segunda carga de datos cargados con exito
+[2024-08-05 22:13:33] [ INFO ] [Cuentas:47] saldo nuevamente actualizado con exito

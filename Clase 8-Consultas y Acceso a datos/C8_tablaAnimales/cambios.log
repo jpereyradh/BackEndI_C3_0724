@@ -6,3 +6,4 @@ DELETE * FROM ANIMALES WHERE ID=3 [42001-224]
 [2024-07-31 23:54:53] [ INFO ] [Animal:17] conexion establecida
 [2024-07-31 23:55:46] [ INFO ] [Animal:17] conexion establecida
 [2024-07-31 23:56:02] [ INFO ] [Animal:17] conexion establecida
+[2024-07-31 23:59:49] [ INFO ] [Animal:17] conexion establecida
