@@ -1,0 +1,12 @@
+[2024-08-07 22:34:30] [ ERROR] [BD:37] fallo en la BD: Conversión de datos fallida, convirtiendo "2009 (PACIENTES: ""FECHA_INGRESO"" DATE NOT NULL)"
+Data conversion error converting "2009 (PACIENTES: ""FECHA_INGRESO"" DATE NOT NULL)"; SQL statement:
+INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID) VALUES ('Jorgito','Pereyra','345678',2024-08-07,'1') [22018-224]
+[2024-08-07 22:34:30] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:36:34] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-07 22:36:34] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:36:34] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de guardado de un domicilio
+[2024-08-07 22:38:31] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-07 22:38:31] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:47:29] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-07 22:47:29] [ INFO ] [PacienteDAOH2:41] iniciando las operaciones de buscado de un paciente
+[2024-08-07 22:47:29] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de guardado de un domicilio
