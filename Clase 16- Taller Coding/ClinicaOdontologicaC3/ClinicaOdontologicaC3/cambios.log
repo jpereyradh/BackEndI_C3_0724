@@ -1,0 +1,12 @@
+[2024-08-15 00:18:52] [ INFO ] [PacienteDAOH2:66] iniciando las operaciones de busqueda: jorgito@digitalhouse.com
+[2024-08-15 00:18:52] [ ERROR] [PacienteDAOH2:82] fallo en la conexion: Table "PACIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM PACIENTES WHERE EMAIL=? [42104-224]
+[2024-08-15 00:18:52] [ INFO ] [PacienteDAOH2:84] paciente encontrado con exito
+[2024-08-15 00:21:59] [ INFO ] [PacienteDAOH2:66] iniciando las operaciones de busqueda: jorgito@digitalhouse.com
+[2024-08-15 00:21:59] [ ERROR] [PacienteDAOH2:82] fallo en la conexion: Table "PACIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM PACIENTES WHERE EMAIL=? [42104-224]
+[2024-08-15 00:21:59] [ WARN ] [PacienteDAOH2:86] error en la busqueda, paciente null
+[2024-08-15 00:22:35] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 00:22:44] [ INFO ] [PacienteDAOH2:66] iniciando las operaciones de busqueda: jorgito@digitalhouse.com
+[2024-08-15 00:22:44] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-15 00:22:44] [ INFO ] [PacienteDAOH2:84] paciente encontrado con exito
