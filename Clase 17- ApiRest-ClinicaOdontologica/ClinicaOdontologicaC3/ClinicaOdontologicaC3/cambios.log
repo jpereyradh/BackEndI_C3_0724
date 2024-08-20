@@ -1,0 +1,31 @@
+[2024-08-15 00:18:52] [ INFO ] [PacienteDAOH2:66] iniciando las operaciones de busqueda: jorgito@digitalhouse.com
+[2024-08-15 00:18:52] [ ERROR] [PacienteDAOH2:82] fallo en la conexion: Table "PACIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM PACIENTES WHERE EMAIL=? [42104-224]
+[2024-08-15 00:18:52] [ INFO ] [PacienteDAOH2:84] paciente encontrado con exito
+[2024-08-15 00:21:59] [ INFO ] [PacienteDAOH2:66] iniciando las operaciones de busqueda: jorgito@digitalhouse.com
+[2024-08-15 00:21:59] [ ERROR] [PacienteDAOH2:82] fallo en la conexion: Table "PACIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM PACIENTES WHERE EMAIL=? [42104-224]
+[2024-08-15 00:21:59] [ WARN ] [PacienteDAOH2:86] error en la busqueda, paciente null
+[2024-08-15 00:22:35] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 00:22:44] [ INFO ] [PacienteDAOH2:66] iniciando las operaciones de busqueda: jorgito@digitalhouse.com
+[2024-08-15 00:22:44] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-15 00:22:44] [ INFO ] [PacienteDAOH2:84] paciente encontrado con exito
+[2024-08-15 00:24:41] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 00:24:54] [ INFO ] [PacienteDAOH2:66] iniciando las operaciones de busqueda: jorgito@digitalhouse.com
+[2024-08-15 00:24:54] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-15 00:24:54] [ INFO ] [PacienteDAOH2:84] paciente encontrado con exito
+[2024-08-19 21:31:30] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 21:37:39] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:37:39] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:40:11] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:40:11] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:40:51] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:40:51] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:42:07] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:42:07] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:43:55] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:43:55] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:45:29] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:45:29] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:45:49] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:45:49] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
