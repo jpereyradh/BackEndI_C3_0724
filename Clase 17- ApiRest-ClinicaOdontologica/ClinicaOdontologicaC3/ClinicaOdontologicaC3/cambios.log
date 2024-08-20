@@ -63,3 +63,30 @@ INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES(?,?,?,?) [90
 [2024-08-19 22:16:21] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
 [2024-08-19 22:16:21] [ INFO ] [DomicilioDAOH2:33] domicilio persistido
 [2024-08-19 22:16:21] [ INFO ] [PacienteDAOH2:36] paciente persistido
+[2024-08-19 23:47:42] [ INFO ] [BD:38] datos cargados con exito
+[2024-08-19 23:48:56] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de guardado de un odontologo
+[2024-08-19 23:48:56] [ INFO ] [OdontologoDAOH2:33] ID asignado: 2
+[2024-08-19 23:49:27] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de guardado de un odontologo
+[2024-08-19 23:49:27] [ INFO ] [OdontologoDAOH2:33] ID asignado: 3
+[2024-08-19 23:49:53] [ INFO ] [OdontologoDAOH2:63] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-19 23:49:53] [ INFO ] [OdontologoDAOH2:75] lista cargada
+[2024-08-19 23:55:36] [ INFO ] [BD:38] datos cargados con exito
+[2024-08-19 23:56:02] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de guardado de un odontologo
+[2024-08-19 23:56:02] [ INFO ] [OdontologoDAOH2:34] ID asignado: 2
+[2024-08-19 23:56:30] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de guardado de un odontologo
+[2024-08-19 23:56:30] [ INFO ] [OdontologoDAOH2:34] ID asignado: 3
+[2024-08-19 23:56:35] [ INFO ] [OdontologoDAOH2:80] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-19 23:56:35] [ INFO ] [OdontologoDAOH2:92] lista cargada
+[2024-08-19 23:58:34] [ INFO ] [BD:38] datos cargados con exito
+[2024-08-19 23:59:35] [ INFO ] [BD:38] datos cargados con exito
+[2024-08-20 00:00:07] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 2
+[2024-08-20 00:00:07] [ ERROR] [OdontologoDAOH2:58] conexion fallida: Cannot invoke "com.example.ClinicaOdontologicaC3.Model.Odontologo.getNombre()" because "odontologo" is null
+[2024-08-20 00:00:16] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-20 00:00:16] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-20 00:01:17] [ INFO ] [BD:38] datos cargados con exito
+[2024-08-20 00:02:21] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-20 00:02:21] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-20 00:02:32] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de guardado de un odontologo
+[2024-08-20 00:02:32] [ INFO ] [OdontologoDAOH2:34] ID asignado: 2
+[2024-08-20 00:02:42] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 2
+[2024-08-20 00:02:42] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Gloria

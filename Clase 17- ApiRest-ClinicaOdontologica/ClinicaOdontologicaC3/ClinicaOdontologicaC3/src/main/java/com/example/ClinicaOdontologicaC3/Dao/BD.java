@@ -19,9 +19,12 @@ public class BD {
             "APELLIDO VARCHAR(100) NOT NULL, CEDULA VARCHAR(100) NOT NULL, FECHA_INGRESO DATE NOT NULL, DOMICILIO_ID INT NOT NULL, EMAIL VARCHAR(100) NOT NULL)";
     private static final String SQL_CREATE_DOMICILIOS="DROP TABLE IF EXISTS DOMICILIOS; " +
             "CREATE TABLE DOMICILIOS (ID INT AUTO_INCREMENT NOT NULL, CALLE VARCHAR(100) NOT NULL, NUMERO INT NOT NULL, LOCALIDAD VARCHAR(100) NOT NULL, PROVINCIA VARCHAR(100) NOT NULL)";
+    private static final String SQL_CREATE_ODONTOLOGOS="DROP TABLE IF EXISTS ODONTOLOGOS; " +
+            "CREATE TABLE ODONTOLOGOS (ID INT AUTO_INCREMENT, NOMBRE VARCHAR(199) NOT NULL, APELLIDO VARCHAR(199) NOT NULL, MATRICULA VARCHAR(199) NOT NULL)";
     private static final String SQL_INSERT_PRUEBA="INSERT INTO PACIENTES (NOMBRE, APELLIDO, CEDULA, FECHA_INGRESO, DOMICILIO_ID, EMAIL) VALUES " +
             "('Jorgito','Pereyra','345678','2024-08-07','1','jorgito@digitalhouse.com'); " +
-            "INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','748','Sprinfield','USA')";
+            "INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES('Siempre viva','748','Sprinfield','USA'); " +
+            "INSERT INTO ODONTOLOGOS( NOMBRE, APELLIDO, MATRICULA) VALUES('Yesenia','Berrio','MN10')";
 
 public static void crearTablas(){
     Connection connection=null;
@@ -30,6 +33,7 @@ public static void crearTablas(){
         Statement statement= connection.createStatement();
         statement.execute(SQL_CREATE_PACIENTES);
         statement.execute(SQL_CREATE_DOMICILIOS);
+        statement.execute(SQL_CREATE_ODONTOLOGOS);
         statement.execute(SQL_INSERT_PRUEBA);
         logger.info("datos cargados con exito");
 
