@@ -1,5 +1,6 @@
 package com.example.ClinicaOdontologicaC3.Model;
 
+import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.Setter;

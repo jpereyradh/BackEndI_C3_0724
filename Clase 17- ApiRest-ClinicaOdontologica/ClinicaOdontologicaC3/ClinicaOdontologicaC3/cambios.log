@@ -29,3 +29,37 @@ SELECT * FROM PACIENTES WHERE EMAIL=? [42104-224]
 [2024-08-19 21:45:29] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
 [2024-08-19 21:45:49] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
 [2024-08-19 21:45:49] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:51:42] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 21:52:05] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:52:05] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:53:51] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 21:54:14] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:54:14] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.example.ClinicaOdontologicaC3.Model.Domicilio.getId()" is null
+[2024-08-19 22:03:30] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 22:03:44] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:03:44] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.example.ClinicaOdontologicaC3.Model.Domicilio.getId()" is null
+[2024-08-19 22:11:36] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 22:11:52] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:11:52] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-19 22:11:53] [ ERROR] [DomicilioDAOH2:35] conexion fallida: Metodo permitido unicamente en un query. Use execute ó executeUpdate en lugar de executeQuery
+Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES(?,?,?,?) [90002-224]
+[2024-08-19 22:11:53] [ ERROR] [PacienteDAOH2:39] conexion fallida: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.example.ClinicaOdontologicaC3.Model.Domicilio.getId()" is null
+[2024-08-19 22:13:22] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 22:13:47] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:13:47] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-19 22:13:47] [ INFO ] [DomicilioDAOH2:32] domicilio persistido
+[2024-08-19 22:13:47] [ ERROR] [PacienteDAOH2:39] conexion fallida: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.example.ClinicaOdontologicaC3.Model.Domicilio.getId()" is null
+[2024-08-19 22:14:56] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 22:15:13] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:15:13] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-19 22:15:13] [ INFO ] [DomicilioDAOH2:33] domicilio persistido
+[2024-08-19 22:15:13] [ INFO ] [PacienteDAOH2:36] paciente persistido
+[2024-08-19 22:16:18] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:16:18] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-19 22:16:18] [ INFO ] [DomicilioDAOH2:33] domicilio persistido
+[2024-08-19 22:16:18] [ INFO ] [PacienteDAOH2:36] paciente persistido
+[2024-08-19 22:16:21] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:16:21] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-19 22:16:21] [ INFO ] [DomicilioDAOH2:33] domicilio persistido
+[2024-08-19 22:16:21] [ INFO ] [PacienteDAOH2:36] paciente persistido

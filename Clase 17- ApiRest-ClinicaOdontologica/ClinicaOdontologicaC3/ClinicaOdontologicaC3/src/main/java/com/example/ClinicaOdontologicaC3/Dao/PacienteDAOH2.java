@@ -17,6 +17,8 @@ public class PacienteDAOH2 implements iDao<Paciente>{
     public Paciente guardar(Paciente paciente) {
         logger.info("iniciando las operaciones de guardado de un paciente");
         Connection connection= null;
+        DomicilioDAOH2 daoAux= new DomicilioDAOH2();
+        Domicilio domicilio= daoAux.guardar(paciente.getDomicilio());
         try{
             connection= BD.getConnection();
             PreparedStatement psInsert= connection.prepareStatement(SQL_INSERT, Statement.RETURN_GENERATED_KEYS);
@@ -24,13 +26,14 @@ public class PacienteDAOH2 implements iDao<Paciente>{
             psInsert.setString(2, paciente.getApellido());
             psInsert.setString(3, paciente.getCedula());
             psInsert.setDate(4, Date.valueOf(paciente.getFechaIngreso()));
-            psInsert.setInt(5,paciente.getDomicilio().getId());
+            psInsert.setInt(5,domicilio.getId());
             psInsert.setString(6, paciente.getEmail());
-
+            psInsert.execute();
            ResultSet rs= psInsert.getGeneratedKeys();
             while(rs.next()){
                 paciente.setId(rs.getInt(1));
             }
+            logger.info("paciente persistido");
 
         }catch (Exception e){
             logger.error("conexion fallida: "+e.getMessage());

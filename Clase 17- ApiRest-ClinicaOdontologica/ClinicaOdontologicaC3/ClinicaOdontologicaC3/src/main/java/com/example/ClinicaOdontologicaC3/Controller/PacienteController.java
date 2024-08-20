@@ -15,7 +15,7 @@ public class PacienteController {
         pacienteService= new PacienteService();
     }
   @PostMapping
-    public Paciente guardarPaciente(Paciente paciente){
+    public Paciente guardarPaciente(@RequestBody Paciente paciente){
         return pacienteService.guardarPaciente(paciente);
   }
 /* @PutMapping
