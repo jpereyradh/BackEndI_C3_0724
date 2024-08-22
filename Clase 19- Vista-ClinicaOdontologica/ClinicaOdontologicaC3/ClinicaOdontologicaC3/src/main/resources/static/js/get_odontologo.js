@@ -15,9 +15,9 @@ window.addEventListener('load', function () {
          for(odontologo of data){
             //por cada pelicula armaremos una fila de la tabla
             //cada fila tendrá un id que luego nos permitirá borrar la fila si eliminamos la pelicula
-            var table = document.getElementById("odontologoTableBody");
+            var table = document.getElementById("odontologoTable");
             var odontologoRow =table.insertRow();
-            let tr_id = 'tr_' + odontologo.id;
+            let tr_id = + odontologo.id;
             odontologoRow.id = tr_id;
 
             //por cada pelicula creamos un boton delete que agregaremos en cada fila para poder eliminar la misma
@@ -33,9 +33,9 @@ window.addEventListener('load', function () {
             //a la función de java script findBy que se encargará de buscar la pelicula que queremos
             //modificar y mostrar los datos de la misma en un formulario.
             let updateButton = '<button' +
-                                      ' id=' + '\"' + 'btn_id_' + pelicula.id + '\"' +
-                                      ' type="button" onclick="findBy('+pelicula.id+')" class="btn btn-info btn_id">' +
-                                      pelicula.id +
+                                      ' id=' + '\"' + 'btn_id_' + odontologo.id + '\"' +
+                                      ' type="button" onclick="findBy('+odontologo.id+')" class="btn btn-info btn_id">' +
+                                      odontologo.id +
                                       '</button>';
 
             //armamos cada columna de la fila

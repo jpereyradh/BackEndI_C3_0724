@@ -220,3 +220,101 @@ INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES(?,?,?,?) [90
 [2024-08-22 00:11:59] [ INFO ] [OdontologoDAOH2:106] lista cargada
 [2024-08-22 00:12:03] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
 [2024-08-22 00:12:03] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:16:13] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:16:26] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:16:26] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:16:28] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:16:28] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:16:29] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:16:29] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:16:29] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:16:29] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:05] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:17:13] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:13] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:18] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:18] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:44] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:17:51] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:51] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:54] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:54] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:55] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:55] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:18:55] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:19:12] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:12] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:16] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:16] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:30] [ INFO ] [OdontologoDAOH2:22] iniciando las operaciones de guardado de un odontologo
+[2024-08-22 00:19:30] [ INFO ] [OdontologoDAOH2:35] ID asignado: 2
+[2024-08-22 00:19:34] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:34] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:21:08] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:21:22] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:21:22] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:21:52] [ INFO ] [OdontologoDAOH2:22] iniciando las operaciones de guardado de un odontologo
+[2024-08-22 00:21:52] [ INFO ] [OdontologoDAOH2:35] ID asignado: 2
+[2024-08-22 00:21:55] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:21:55] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:22:40] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:22:48] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:22:48] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:22:50] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:22:50] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:33:46] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:34:19] [ INFO ] [OdontologoDAOH2:22] iniciando las operaciones de guardado de un odontologo
+[2024-08-22 00:34:19] [ INFO ] [OdontologoDAOH2:35] ID asignado: 2
+[2024-08-22 00:34:31] [ INFO ] [OdontologoDAOH2:22] iniciando las operaciones de guardado de un odontologo
+[2024-08-22 00:34:31] [ INFO ] [OdontologoDAOH2:35] ID asignado: 3
+[2024-08-22 00:34:35] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:34:35] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:35:22] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:35:31] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:35:31] [ INFO ] [OdontologoDAOH2:106] lista cargada
