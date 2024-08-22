@@ -3,6 +3,7 @@ package com.example.ClinicaOdontologicaC3.Controller;
 
 import com.example.ClinicaOdontologicaC3.Model.Odontologo;
 import com.example.ClinicaOdontologicaC3.Service.OdontologoService;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -17,7 +18,7 @@ public class OdontologoControler {
     }
 
  @PostMapping
-    public Odontologo registrarOdontologo(@RequestBody Odontologo del a){
+    public Odontologo registrarOdontologo(@RequestBody Odontologo odontologo){
         return odontologoService.guardarOdontologo(odontologo);
  }
  @GetMapping
@@ -27,6 +28,16 @@ public class OdontologoControler {
  @GetMapping("/{id}")
     public Odontologo buscarPorId(@PathVariable Integer id){
         return odontologoService.buscarPorId(id);
+ }
+ @DeleteMapping("/eliminar/{id}")
+    public ResponseEntity<String> eliminarOdontologo(@PathVariable Integer id ){
+        Odontologo odontologoBuscado= odontologoService.buscarPorId(id);
+        if(odontologoBuscado!=null){
+            odontologoService.eliminarOdontologo(id);
+            return ResponseEntity.ok("odontologo eliminado con exito");
+        }else{
+            return ResponseEntity.badRequest().body("odontologo inexistente o error en la busqueda");
+        }
  }
  /*
  * Opción 1:
