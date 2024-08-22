@@ -22,13 +22,19 @@ public class OdontologoControler {
         return odontologoService.guardarOdontologo(odontologo);
  }
  @GetMapping
-    public List<Odontologo> listarTodos(){
-        return odontologoService.listarTodos();
+    public ResponseEntity<List<Odontologo>> listarTodos(){
+        return ResponseEntity.ok(odontologoService.listarTodos());
  }
  @GetMapping("/{id}")
-    public Odontologo buscarPorId(@PathVariable Integer id){
-        return odontologoService.buscarPorId(id);
- }
+    public ResponseEntity<Odontologo> buscarPorId(@PathVariable Integer id){
+     Odontologo odontologoBuscado= odontologoService.buscarPorId(id);
+                if(odontologoBuscado!=null){
+     return ResponseEntity.ok(odontologoBuscado);
+                                        }
+    else{
+        return ResponseEntity.notFound().build();
+                }
+    }
  @DeleteMapping("/eliminar/{id}")
     public ResponseEntity<String> eliminarOdontologo(@PathVariable Integer id ){
         Odontologo odontologoBuscado= odontologoService.buscarPorId(id);

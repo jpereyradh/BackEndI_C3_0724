@@ -6,6 +6,7 @@ import com.example.ClinicaOdontologicaC3.Model.Turno;
 import com.example.ClinicaOdontologicaC3.Service.OdontologoService;
 import com.example.ClinicaOdontologicaC3.Service.PacienteService;
 import com.example.ClinicaOdontologicaC3.Service.TurnoService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
