@@ -8,17 +8,17 @@ import lombok.Setter;
 
 @Getter
 @Setter
-@Entity
 @AllArgsConstructor
 @NoArgsConstructor
-@Table(name = "movimientos")
-public class Movimiento {
+@Entity
+@Table(name = "estudiantes")
+public class Estudiante {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
-    @Column(name = "desc",nullable = false,unique = true)
-    private String descripcion;
-    @Column
-    private Double monto;
-
+    private String nombre;
+    private Integer edad;
+    @ManyToOne
+    @JoinColumn(name = "profesor_id",nullable = false)
+    private Profesor profesor; //<--- este nombre del objeto seria el mappedBy
 }
