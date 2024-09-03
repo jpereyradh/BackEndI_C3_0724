@@ -1,5 +1,6 @@
 package com.example.ClinicaOdontologicaC3.Controller;
 
+import com.example.ClinicaOdontologicaC3.Dto.TurnoDTO;
 import com.example.ClinicaOdontologicaC3.Entity.Odontologo;
 import com.example.ClinicaOdontologicaC3.Entity.Paciente;
 import com.example.ClinicaOdontologicaC3.Entity.Turno;
@@ -27,7 +28,7 @@ public class TurnoController {
 
 
     @PostMapping
-    public ResponseEntity<Turno> registrarTurno(@RequestBody Turno turno){
+    public ResponseEntity<TurnoDTO> registrarTurno(@RequestBody Turno turno){
         Optional<Paciente> pacienteBuscado= pacienteService.buscarPorId(turno.getPaciente().getId());
         Optional<Odontologo> odontologoBuscado= odontologoService.buscarPorId(turno.getOdontologo().getId());
         if(pacienteBuscado.isPresent()&& odontologoBuscado.isPresent()){
