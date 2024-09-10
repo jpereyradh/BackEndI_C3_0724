@@ -1,0 +1,320 @@
+[2024-08-15 00:18:52] [ INFO ] [PacienteDAOH2:66] iniciando las operaciones de busqueda: jorgito@digitalhouse.com
+[2024-08-15 00:18:52] [ ERROR] [PacienteDAOH2:82] fallo en la conexion: Table "PACIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM PACIENTES WHERE EMAIL=? [42104-224]
+[2024-08-15 00:18:52] [ INFO ] [PacienteDAOH2:84] paciente encontrado con exito
+[2024-08-15 00:21:59] [ INFO ] [PacienteDAOH2:66] iniciando las operaciones de busqueda: jorgito@digitalhouse.com
+[2024-08-15 00:21:59] [ ERROR] [PacienteDAOH2:82] fallo en la conexion: Table "PACIENTES" not found (this database is empty); SQL statement:
+SELECT * FROM PACIENTES WHERE EMAIL=? [42104-224]
+[2024-08-15 00:21:59] [ WARN ] [PacienteDAOH2:86] error en la busqueda, paciente null
+[2024-08-15 00:22:35] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 00:22:44] [ INFO ] [PacienteDAOH2:66] iniciando las operaciones de busqueda: jorgito@digitalhouse.com
+[2024-08-15 00:22:44] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-15 00:22:44] [ INFO ] [PacienteDAOH2:84] paciente encontrado con exito
+[2024-08-15 00:24:41] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-15 00:24:54] [ INFO ] [PacienteDAOH2:66] iniciando las operaciones de busqueda: jorgito@digitalhouse.com
+[2024-08-15 00:24:54] [ INFO ] [DomicilioDAOH2:29] iniciando las operaciones de buscado de un domicilio
+[2024-08-15 00:24:54] [ INFO ] [PacienteDAOH2:84] paciente encontrado con exito
+[2024-08-19 21:31:30] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 21:37:39] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:37:39] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:40:11] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:40:11] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:40:51] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:40:51] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:42:07] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:42:07] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:43:55] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:43:55] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:45:29] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:45:29] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:45:49] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:45:49] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:51:42] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 21:52:05] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:52:05] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.time.LocalDate.getYear()" because "date" is null
+[2024-08-19 21:53:51] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 21:54:14] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 21:54:14] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.example.ClinicaOdontologicaC3.Entity.Domicilio.getId()" is null
+[2024-08-19 22:03:30] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 22:03:44] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:03:44] [ ERROR] [PacienteDAOH2:36] conexion fallida: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.example.ClinicaOdontologicaC3.Entity.Domicilio.getId()" is null
+[2024-08-19 22:11:36] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 22:11:52] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:11:52] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-19 22:11:53] [ ERROR] [DomicilioDAOH2:35] conexion fallida: Metodo permitido unicamente en un query. Use execute ó executeUpdate en lugar de executeQuery
+Method is only allowed for a query. Use execute or executeUpdate instead of executeQuery; SQL statement:
+INSERT INTO DOMICILIOS (CALLE, NUMERO, LOCALIDAD, PROVINCIA) VALUES(?,?,?,?) [90002-224]
+[2024-08-19 22:11:53] [ ERROR] [PacienteDAOH2:39] conexion fallida: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.example.ClinicaOdontologicaC3.Entity.Domicilio.getId()" is null
+[2024-08-19 22:13:22] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 22:13:47] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:13:47] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-19 22:13:47] [ INFO ] [DomicilioDAOH2:32] domicilio persistido
+[2024-08-19 22:13:47] [ ERROR] [PacienteDAOH2:39] conexion fallida: Cannot invoke "java.lang.Integer.intValue()" because the return value of "com.example.ClinicaOdontologicaC3.Entity.Domicilio.getId()" is null
+[2024-08-19 22:14:56] [ INFO ] [BD:34] datos cargados con exito
+[2024-08-19 22:15:13] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:15:13] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-19 22:15:13] [ INFO ] [DomicilioDAOH2:33] domicilio persistido
+[2024-08-19 22:15:13] [ INFO ] [PacienteDAOH2:36] paciente persistido
+[2024-08-19 22:16:18] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:16:18] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-19 22:16:18] [ INFO ] [DomicilioDAOH2:33] domicilio persistido
+[2024-08-19 22:16:18] [ INFO ] [PacienteDAOH2:36] paciente persistido
+[2024-08-19 22:16:21] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-19 22:16:21] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-19 22:16:21] [ INFO ] [DomicilioDAOH2:33] domicilio persistido
+[2024-08-19 22:16:21] [ INFO ] [PacienteDAOH2:36] paciente persistido
+[2024-08-19 23:47:42] [ INFO ] [BD:38] datos cargados con exito
+[2024-08-19 23:48:56] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de guardado de un odontologo
+[2024-08-19 23:48:56] [ INFO ] [OdontologoDAOH2:33] ID asignado: 2
+[2024-08-19 23:49:27] [ INFO ] [OdontologoDAOH2:20] iniciando las operaciones de guardado de un odontologo
+[2024-08-19 23:49:27] [ INFO ] [OdontologoDAOH2:33] ID asignado: 3
+[2024-08-19 23:49:53] [ INFO ] [OdontologoDAOH2:63] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-19 23:49:53] [ INFO ] [OdontologoDAOH2:75] lista cargada
+[2024-08-19 23:55:36] [ INFO ] [BD:38] datos cargados con exito
+[2024-08-19 23:56:02] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de guardado de un odontologo
+[2024-08-19 23:56:02] [ INFO ] [OdontologoDAOH2:34] ID asignado: 2
+[2024-08-19 23:56:30] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de guardado de un odontologo
+[2024-08-19 23:56:30] [ INFO ] [OdontologoDAOH2:34] ID asignado: 3
+[2024-08-19 23:56:35] [ INFO ] [OdontologoDAOH2:80] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-19 23:56:35] [ INFO ] [OdontologoDAOH2:92] lista cargada
+[2024-08-19 23:58:34] [ INFO ] [BD:38] datos cargados con exito
+[2024-08-19 23:59:35] [ INFO ] [BD:38] datos cargados con exito
+[2024-08-20 00:00:07] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 2
+[2024-08-20 00:00:07] [ ERROR] [OdontologoDAOH2:58] conexion fallida: Cannot invoke "com.example.ClinicaOdontologicaC3.Entity.Odontologo.getNombre()" because "odontologo" is null
+[2024-08-20 00:00:16] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-20 00:00:16] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-20 00:01:17] [ INFO ] [BD:38] datos cargados con exito
+[2024-08-20 00:02:21] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-20 00:02:21] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-20 00:02:32] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de guardado de un odontologo
+[2024-08-20 00:02:32] [ INFO ] [OdontologoDAOH2:34] ID asignado: 2
+[2024-08-20 00:02:42] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 2
+[2024-08-20 00:02:42] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Gloria
+[2024-08-21 21:44:15] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-21 21:46:12] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-21 21:46:12] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-21 21:46:12] [ INFO ] [DomicilioDAOH2:33] domicilio persistido
+[2024-08-21 21:46:12] [ INFO ] [PacienteDAOH2:36] paciente persistido
+[2024-08-21 21:46:21] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de guardado de un odontologo
+[2024-08-21 21:46:21] [ INFO ] [OdontologoDAOH2:34] ID asignado: 2
+[2024-08-21 21:46:51] [ INFO ] [PacienteDAOH2:46] iniciando las operaciones de buscado de un paciente
+[2024-08-21 21:46:51] [ INFO ] [DomicilioDAOH2:43] iniciando las operaciones de buscado de un domicilio
+[2024-08-21 21:46:51] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 21:46:51] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-21 21:46:51] [ INFO ] [TURNODAOLISTA:17] iniciando las operaciones de guardado de guardado de un turno
+[2024-08-21 21:46:51] [ INFO ] [PacienteDAOH2:46] iniciando las operaciones de buscado de un paciente
+[2024-08-21 21:46:51] [ INFO ] [DomicilioDAOH2:43] iniciando las operaciones de buscado de un domicilio
+[2024-08-21 21:46:51] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 21:46:51] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-21 21:46:51] [ INFO ] [TURNODAOLISTA:23] turno guardado
+[2024-08-21 21:48:22] [ INFO ] [PacienteDAOH2:46] iniciando las operaciones de buscado de un paciente
+[2024-08-21 21:48:22] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 21:48:22] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-21 21:50:03] [ INFO ] [PacienteDAOH2:46] iniciando las operaciones de buscado de un paciente
+[2024-08-21 21:50:03] [ INFO ] [DomicilioDAOH2:43] iniciando las operaciones de buscado de un domicilio
+[2024-08-21 21:50:03] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 10
+[2024-08-21 21:50:03] [ ERROR] [OdontologoDAOH2:58] conexion fallida: Cannot invoke "com.example.ClinicaOdontologicaC3.Entity.Odontologo.getNombre()" because "odontologo" is null
+[2024-08-21 21:51:46] [ INFO ] [PacienteDAOH2:46] iniciando las operaciones de buscado de un paciente
+[2024-08-21 21:51:46] [ INFO ] [DomicilioDAOH2:43] iniciando las operaciones de buscado de un domicilio
+[2024-08-21 21:51:46] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 21:51:46] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-21 21:51:46] [ INFO ] [TURNODAOLISTA:17] iniciando las operaciones de guardado de guardado de un turno
+[2024-08-21 21:51:46] [ INFO ] [PacienteDAOH2:46] iniciando las operaciones de buscado de un paciente
+[2024-08-21 21:51:46] [ INFO ] [DomicilioDAOH2:43] iniciando las operaciones de buscado de un domicilio
+[2024-08-21 21:51:46] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 21:51:46] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-21 21:51:46] [ INFO ] [TURNODAOLISTA:23] turno guardado
+[2024-08-21 21:55:12] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-21 21:55:40] [ INFO ] [PacienteDAOH2:18] iniciando las operaciones de guardado de un paciente
+[2024-08-21 21:55:40] [ INFO ] [DomicilioDAOH2:19] iniciando las operaciones de guardado de un domicilio
+[2024-08-21 21:55:40] [ INFO ] [DomicilioDAOH2:33] domicilio persistido
+[2024-08-21 21:55:40] [ INFO ] [PacienteDAOH2:36] paciente persistido
+[2024-08-21 21:55:43] [ INFO ] [OdontologoDAOH2:21] iniciando las operaciones de guardado de un odontologo
+[2024-08-21 21:55:43] [ INFO ] [OdontologoDAOH2:34] ID asignado: 2
+[2024-08-21 21:55:49] [ INFO ] [PacienteDAOH2:46] iniciando las operaciones de buscado de un paciente
+[2024-08-21 21:55:49] [ INFO ] [DomicilioDAOH2:43] iniciando las operaciones de buscado de un domicilio
+[2024-08-21 21:55:49] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 21:55:49] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-21 21:55:49] [ INFO ] [TURNODAOLISTA:17] iniciando las operaciones de guardado de guardado de un turno
+[2024-08-21 21:55:49] [ INFO ] [PacienteDAOH2:46] iniciando las operaciones de buscado de un paciente
+[2024-08-21 21:55:49] [ INFO ] [DomicilioDAOH2:43] iniciando las operaciones de buscado de un domicilio
+[2024-08-21 21:55:49] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 21:55:49] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-21 21:55:49] [ INFO ] [TURNODAOLISTA:23] turno guardado
+[2024-08-21 21:56:05] [ INFO ] [PacienteDAOH2:46] iniciando las operaciones de buscado de un paciente
+[2024-08-21 21:56:05] [ INFO ] [DomicilioDAOH2:43] iniciando las operaciones de buscado de un domicilio
+[2024-08-21 21:56:05] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 21:56:05] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-21 21:56:05] [ INFO ] [TURNODAOLISTA:17] iniciando las operaciones de guardado de guardado de un turno
+[2024-08-21 21:56:05] [ INFO ] [PacienteDAOH2:46] iniciando las operaciones de buscado de un paciente
+[2024-08-21 21:56:05] [ INFO ] [DomicilioDAOH2:43] iniciando las operaciones de buscado de un domicilio
+[2024-08-21 21:56:05] [ INFO ] [OdontologoDAOH2:44] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 21:56:05] [ INFO ] [OdontologoDAOH2:55] odontologo encontrado:  Yesenia
+[2024-08-21 21:56:05] [ INFO ] [TURNODAOLISTA:23] turno guardado
+[2024-08-21 21:56:33] [ INFO ] [TURNODAOLISTA:57] iniciando las operaciones de busqueda de todos los turnos
+[2024-08-21 22:06:13] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-21 22:06:56] [ INFO ] [OdontologoDAOH2:45] iniciando las operaciones de busqueda de un odontologo con id: 2
+[2024-08-21 22:06:56] [ ERROR] [OdontologoDAOH2:59] conexion fallida: Cannot invoke "com.example.ClinicaOdontologicaC3.Entity.Odontologo.getNombre()" because "odontologo" is null
+[2024-08-21 22:07:08] [ INFO ] [OdontologoDAOH2:45] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 22:07:08] [ INFO ] [OdontologoDAOH2:56] odontologo encontrado:  Yesenia
+[2024-08-21 22:07:08] [ WARN ] [OdontologoDAOH2:76] iniciando la operacion de eliminacion de un odontologo con ID: 1
+[2024-08-21 22:07:08] [ INFO ] [OdontologoDAOH2:83] odontologo eliminado
+[2024-08-21 22:07:29] [ INFO ] [OdontologoDAOH2:45] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 22:07:29] [ ERROR] [OdontologoDAOH2:59] conexion fallida: Cannot invoke "com.example.ClinicaOdontologicaC3.Entity.Odontologo.getNombre()" because "odontologo" is null
+[2024-08-21 23:26:43] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-21 23:36:17] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-21 23:40:54] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-21 23:42:24] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-21 23:43:05] [ INFO ] [OdontologoDAOH2:22] iniciando las operaciones de guardado de un odontologo
+[2024-08-21 23:43:05] [ INFO ] [OdontologoDAOH2:35] ID asignado: 2
+[2024-08-21 23:43:50] [ INFO ] [OdontologoDAOH2:45] iniciando las operaciones de busqueda de un odontologo con id: 2
+[2024-08-21 23:43:50] [ INFO ] [OdontologoDAOH2:56] odontologo encontrado:  Jorge Agustin
+[2024-08-21 23:45:23] [ INFO ] [OdontologoDAOH2:45] iniciando las operaciones de busqueda de un odontologo con id: 200
+[2024-08-21 23:45:23] [ ERROR] [OdontologoDAOH2:59] conexion fallida: Cannot invoke "com.example.ClinicaOdontologicaC3.Entity.Odontologo.getNombre()" because "odontologo" is null
+[2024-08-21 23:47:10] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-21 23:47:19] [ INFO ] [OdontologoDAOH2:45] iniciando las operaciones de busqueda de un odontologo con id: 200
+[2024-08-21 23:47:19] [ ERROR] [OdontologoDAOH2:59] conexion fallida: Cannot invoke "com.example.ClinicaOdontologicaC3.Entity.Odontologo.getNombre()" because "odontologo" is null
+[2024-08-21 23:47:25] [ INFO ] [OdontologoDAOH2:45] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 23:47:25] [ INFO ] [OdontologoDAOH2:56] odontologo encontrado:  Yesenia
+[2024-08-21 23:47:28] [ INFO ] [OdontologoDAOH2:45] iniciando las operaciones de busqueda de un odontologo con id: 12
+[2024-08-21 23:47:28] [ ERROR] [OdontologoDAOH2:59] conexion fallida: Cannot invoke "com.example.ClinicaOdontologicaC3.Entity.Odontologo.getNombre()" because "odontologo" is null
+[2024-08-21 23:47:41] [ INFO ] [OdontologoDAOH2:45] iniciando las operaciones de busqueda de un odontologo con id: 13
+[2024-08-21 23:47:41] [ ERROR] [OdontologoDAOH2:59] conexion fallida: Cannot invoke "com.example.ClinicaOdontologicaC3.Entity.Odontologo.getNombre()" because "odontologo" is null
+[2024-08-21 23:50:19] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-21 23:50:29] [ INFO ] [OdontologoDAOH2:45] iniciando las operaciones de busqueda de un odontologo con id: 1
+[2024-08-21 23:50:29] [ INFO ] [OdontologoDAOH2:56] odontologo encontrado:  Yesenia
+[2024-08-21 23:50:36] [ INFO ] [OdontologoDAOH2:45] iniciando las operaciones de busqueda de un odontologo con id: 10
+[2024-08-21 23:50:36] [ ERROR] [OdontologoDAOH2:59] conexion fallida: Cannot invoke "com.example.ClinicaOdontologicaC3.Entity.Odontologo.getNombre()" because "odontologo" is null
+[2024-08-21 23:58:09] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-21 23:58:44] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-21 23:58:44] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-21 23:59:47] [ INFO ] [OdontologoDAOH2:22] iniciando las operaciones de guardado de un odontologo
+[2024-08-21 23:59:47] [ INFO ] [OdontologoDAOH2:35] ID asignado: 2
+[2024-08-22 00:01:03] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:01:03] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:03:04] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:03:22] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:03:22] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:03:25] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:03:25] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:03:25] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:03:25] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:03:25] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:03:25] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:08:26] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:08:40] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:08:40] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:08:44] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:08:44] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:08:44] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:08:44] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:09:02] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:09:02] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:10:28] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:10:39] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:10:39] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:10:41] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:10:41] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:11:50] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:11:59] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:11:59] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:12:03] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:12:03] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:16:13] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:16:26] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:16:26] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:16:28] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:16:28] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:16:29] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:16:29] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:16:29] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:16:29] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:05] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:17:13] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:13] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:18] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:18] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:44] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:17:51] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:51] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:52] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:54] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:54] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:17:55] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:17:55] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:18:55] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:19:12] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:12] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:13] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:14] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:15] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:16] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:16] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:19:30] [ INFO ] [OdontologoDAOH2:22] iniciando las operaciones de guardado de un odontologo
+[2024-08-22 00:19:30] [ INFO ] [OdontologoDAOH2:35] ID asignado: 2
+[2024-08-22 00:19:34] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:19:34] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:21:08] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:21:22] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:21:22] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:21:52] [ INFO ] [OdontologoDAOH2:22] iniciando las operaciones de guardado de un odontologo
+[2024-08-22 00:21:52] [ INFO ] [OdontologoDAOH2:35] ID asignado: 2
+[2024-08-22 00:21:55] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:21:55] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:22:40] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:22:48] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:22:48] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:22:50] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:22:50] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:33:46] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:34:19] [ INFO ] [OdontologoDAOH2:22] iniciando las operaciones de guardado de un odontologo
+[2024-08-22 00:34:19] [ INFO ] [OdontologoDAOH2:35] ID asignado: 2
+[2024-08-22 00:34:31] [ INFO ] [OdontologoDAOH2:22] iniciando las operaciones de guardado de un odontologo
+[2024-08-22 00:34:31] [ INFO ] [OdontologoDAOH2:35] ID asignado: 3
+[2024-08-22 00:34:35] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:34:35] [ INFO ] [OdontologoDAOH2:106] lista cargada
+[2024-08-22 00:35:22] [ INFO ] [BD:39] datos cargados con exito
+[2024-08-22 00:35:31] [ INFO ] [OdontologoDAOH2:94] iniciando las operaciones de busqueda de todos los odontologos
+[2024-08-22 00:35:31] [ INFO ] [OdontologoDAOH2:106] lista cargada
